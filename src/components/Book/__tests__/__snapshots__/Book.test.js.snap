@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@renders in default state 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root makeStyles-cardGrid-2 MuiContainer-maxWidthXl"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6"
+      >
+        <img
+          alt="A live in London"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+          src="Image 1"
+          title="A live in London"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-3"
+          >
+            A live in London
+          </div>
+        </h4>
+        <h5
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-4"
+          >
+            Price:
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-5"
+          >
+            £10.00
+          </div>
+        </h5>
+        <h5
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-6"
+          >
+            Author:
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-7"
+          >
+            Jose Bolufer
+          </div>
+        </h5>
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+        >
+          The story about a boy that grew up in London
+        </p>
+        <h5
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+        >
+          In stock: 1
+        </h5>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-outlinedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            ADD TO BAG
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

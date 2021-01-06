@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@renders in default state 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root MuiTypography-body2"
+  >
+    There are 0 books to display.
+  </p>
+</DocumentFragment>
+`;

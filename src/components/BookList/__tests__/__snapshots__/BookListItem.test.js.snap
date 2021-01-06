@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@renders in default state 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+    data-testid="book-list-item"
+  >
+    <div
+      class="MuiPaper-root MuiCard-root makeStyles-card-1 MuiPaper-elevation8 MuiPaper-rounded"
+    >
+      <img
+        alt="A live in London"
+        class="MuiCardMedia-root makeStyles-cardMedia-2 MuiCardMedia-media MuiCardMedia-img"
+        src="Image 1"
+        title="A live in London"
+      />
+      <div
+        class="MuiCardContent-root makeStyles-cardContent-3"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+        >
+          A live in London
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom"
+        >
+          By Jose Bolufer
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body2"
+        >
+          £10.00
+        </p>
+      </div>
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
+          href="/book/1"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            View
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
