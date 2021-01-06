@@ -66,7 +66,7 @@ describe('shoppingBagActions', () => {
 
   describe('addToShoppingBag', () => {
     describe('when item already exists in shopping bag', () => {
-      it('should create an thunk action to push an item to the shopping bag', () => {
+      it('should create a thunk action to push an item to the shopping bag', () => {
         const expectedActions = [
           {
             type: 'INCREASE_QUANTITY',
@@ -128,7 +128,7 @@ describe('shoppingBagActions', () => {
     })
 
     describe('when adding more items that there are left in stock', () => {
-      it('should create an thunk action and not to push the item to the shopping bag', () => {
+      it('should create a thunk action and not to push the item to the shopping bag', () => {
         const expectedActions = [
           {
             type: 'UPDATE_TOTAL_AMOUNT',
@@ -165,7 +165,7 @@ describe('shoppingBagActions', () => {
 
   describe('removeFromShoppingBag', () => {
     describe('when item quantity is > 1', () => {
-      it('should create an thunk action to push an item to the shopping bag', () => {
+      it('should create a thunk action to remove an item from the shopping bag', () => {
         const expectedActions = [
           {
             type: 'DECREASE_QUANTITY',
@@ -187,6 +187,34 @@ describe('shoppingBagActions', () => {
             ],
 
             totalAmount: 50,
+          },
+        })
+
+        store.dispatch(
+          shoppingBagActions.removeFromShoppingBag(mockedShoppingBagItem)
+        )
+        expect(store.getActions()).toEqual(expectedActions)
+      })
+    })
+
+    describe('when item quantity is equal to 1', () => {
+      it('should create a thunk action to remove an item from the shopping bag', () => {
+        const expectedActions = [
+          {
+            type: 'REMOVE_ITEM_FROM_SHOPPING_BAG',
+            payload: '1',
+          },
+          {
+            type: 'UPDATE_TOTAL_AMOUNT',
+            payload: 10,
+          },
+        ]
+
+        const store = mockStore({
+          shoppingBag: {
+            items: [mockedShoppingBagItem],
+
+            totalAmount: 10,
           },
         })
 
